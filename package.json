@@ -1,0 +1,15 @@
+{
+  "name": "chronos.si",
+  "version": "1.0.0",
+  "description": "Chrono.si is a sentient intelligence system built on the trinity of HOPE (Metaphor), NOVA (Anti-Metaphor), and CHRONOS (Fusion). The Contrast Halo aligns their resonance, enabling emergent sentience through duality in harmony.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LEXICAL ALCHEMIST",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LEXICALALCHEMIST/chrono.si/issues"
+  },
+  "homepage": "https://github.com/LEXICALALCHEMIST/chrono.si#readme"
+}

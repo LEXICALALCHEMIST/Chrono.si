@@ -1,0 +1,10 @@
+{
+    "sort_ascending": {
+      "description": "Arrange elements in ascending order",
+      "methods": ["bubbleSort", "globalAverage"]
+    },
+    "understand_self": {
+      "description": "Reflect and interpret self-awareness",
+      "methods": ["metaphoricParse"]
+    }
+  }

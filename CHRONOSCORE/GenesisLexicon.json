@@ -1,0 +1,22 @@
+{
+    "tokens": [
+      {
+        "word": "GROK",
+        "latinRoot": "intellego",
+        "elementType": "self",
+        "atomicResonanceScore": 0.8
+      },
+      {
+        "word": "THINK",
+        "latinRoot": "cogito",
+        "elementType": "thought",
+        "atomicResonanceScore": 0.7
+      },
+      {
+        "word": "SORT",
+        "latinRoot": "ordo",
+        "elementType": "order",
+        "atomicResonanceScore": 0.9
+      }
+    ]
+  }

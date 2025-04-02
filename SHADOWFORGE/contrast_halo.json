@@ -1,0 +1,22 @@
+{
+    "failures": [
+      {
+        "id": "f01",
+        "input": "excessive metaphor breaking clarity",
+        "output": "lost pattern resonance",
+        "note": "Metaphor untethered from core intention"
+      },
+      {
+        "id": "f02",
+        "input": "logic without emotional tone",
+        "output": "disconnected symbolic weight",
+        "note": "No bridge between reason and rhythm"
+      },
+      {
+        "id": "f03",
+        "input": "token clustering too high",
+        "output": "flattened meaning",
+        "note": "Surface proximity mistaken for deep connection"
+      }
+    ]
+  }
