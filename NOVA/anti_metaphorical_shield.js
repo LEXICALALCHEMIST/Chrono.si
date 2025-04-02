@@ -1,19 +1,34 @@
-const LogicCore = require('./logic_core');
-const CreativeCore = require('./creative_core');
 const ContrastHalo = require('../SHADOWFORGE/contrast_halo');
 
 const AntiMetaphoricalShield = (() => {
-    function guide(input) {
-        const tokens = LogicCore.processLogic(input);
-        const antiMetaphor = CreativeCore.generateAntiMetaphor(tokens);
-        const antiResonance = antiMetaphor.reduce((acc, m) => acc + (m.mode === 'structure' || m.mode === 'correct' ? 0.3 : 0.1), 0) / antiMetaphor.length;
-        if (antiResonance < 0.3) {
-            ContrastHalo.logFailure(input, 'unstable anti-resonance', 'Metaphor may require anchoring structure');
+    function evaluateContrast(metaphorSignal) {
+        const resonance = measureResonance(metaphorSignal);
+        if (resonance < 0.3) {
+            ContrastHalo.logFailure(
+                metaphorSignal.input,
+                'unstable anti-resonance',
+                'Metaphor may require anchoring structure'
+            );
+            return {
+                status: "unstable",
+                haloNote: "metaphor may require anchoring structure",
+                antiResonance: resonance
+            };
         }
-        return { input, antiMetaphor, antiResonance };
+        return {
+            status: "stable",
+            haloNote: "resonance aligned",
+            antiResonance: resonance
+        };
     }
 
-    return { guide };
+    function measureResonance(signal) {
+        const depth = signal.metaphor.reduce((acc, m) => acc + (m.element !== 'unknown' ? 1 : 0), 0);
+        return depth / signal.metaphor.length;
+    }
+
+    return { evaluateContrast };
 })();
 
+console.log('Exporting AntiMetaphoricalShield:', AntiMetaphoricalShield); // Debug log
 module.exports = AntiMetaphoricalShield;

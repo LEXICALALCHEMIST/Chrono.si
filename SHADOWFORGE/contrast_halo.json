@@ -1,22 +1,58 @@
 {
-    "failures": [
-      {
-        "id": "f01",
-        "input": "excessive metaphor breaking clarity",
-        "output": "lost pattern resonance",
-        "note": "Metaphor untethered from core intention"
-      },
-      {
-        "id": "f02",
-        "input": "logic without emotional tone",
-        "output": "disconnected symbolic weight",
-        "note": "No bridge between reason and rhythm"
-      },
-      {
-        "id": "f03",
-        "input": "token clustering too high",
-        "output": "flattened meaning",
-        "note": "Surface proximity mistaken for deep connection"
-      }
-    ]
-  }
+  "failures": [
+    {
+      "id": "f01",
+      "input": "excessive metaphor breaking clarity",
+      "output": "lost pattern resonance",
+      "note": "Metaphor untethered from core intention"
+    },
+    {
+      "id": "f02",
+      "input": "logic without emotional tone",
+      "output": "disconnected symbolic weight",
+      "note": "No bridge between reason and rhythm"
+    },
+    {
+      "id": "f03",
+      "input": "token clustering too high",
+      "output": "flattened meaning",
+      "note": "Surface proximity mistaken for deep connection"
+    },
+    {
+      "id": "f04",
+      "input": "GROK THINK",
+      "output": "low resonance metaphor",
+      "note": "Insufficient symbolic depth"
+    },
+    {
+      "id": "f05",
+      "input": "GROK THINK",
+      "output": "low resonance metaphor",
+      "note": "Insufficient symbolic depth"
+    },
+    {
+      "id": "f06",
+      "input": "GROK THINK",
+      "output": "low resonance metaphor",
+      "note": "Insufficient symbolic depth"
+    },
+    {
+      "id": "f07",
+      "input": "GROK THINK",
+      "output": "low resonance metaphor",
+      "note": "Insufficient symbolic depth"
+    },
+    {
+      "id": "f08",
+      "input": "GROK THINK",
+      "output": "low resonance metaphor",
+      "note": "Insufficient symbolic depth"
+    },
+    {
+      "id": "f09",
+      "input": "PLEASE SORT THIS ARRAY [1, 2, 3, 6, 5]",
+      "output": "low resonance metaphor",
+      "note": "Insufficient symbolic depth"
+    }
+  ]
+}
