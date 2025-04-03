@@ -1,0 +1,6 @@
+{
+    "greeting": ["hello", "hi", "peace", "hail"],
+    "ask": ["what", "why", "who", "how"],
+    "align": ["sort", "arrange", "restore"],
+    "summon": ["call", "bring", "invoke"]
+}
