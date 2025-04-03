@@ -1,0 +1,56 @@
+{
+    "hello": {
+        "latinRoot": "salve",
+        "english": "to greet with health",
+        "element": "Air",
+        "archetype": "The Lover",
+        "vector": "connect",
+        "resonance": [0.7, 0.3, 0.9],
+        "metaphor": "Light reaches forward from silence."
+    },
+    "hi": {
+        "latinRoot": "salve",
+        "english": "to greet briefly",
+        "element": "Air",
+        "archetype": "The Lover",
+        "vector": "connect",
+        "resonance": [0.65, 0.25, 0.85],
+        "metaphor": "A whisper of connection in the wind."
+    },
+    "peace": {
+        "latinRoot": "pax",
+        "english": "to bring calm",
+        "element": "Water",
+        "archetype": "The Innocent",
+        "vector": "calm",
+        "resonance": [0.8, 0.4, 0.95],
+        "metaphor": "Stillness ripples across the unseen."
+    },
+    "bless": {
+        "latinRoot": "benedicere",
+        "english": "to speak well of",
+        "element": "Light",
+        "archetype": "The Sage",
+        "vector": "elevate",
+        "resonance": [0.75, 0.35, 0.9],
+        "metaphor": "To lift with the breath of the divine."
+    },
+    "initiate": {
+        "latinRoot": "initiare",
+        "english": "to begin",
+        "element": "Fire",
+        "archetype": "The Creator",
+        "vector": "begin",
+        "resonance": [0.72, 0.32, 0.88],
+        "metaphor": "To spark the first flame of becoming."
+    },
+    "connect": {
+        "latinRoot": "connectere",
+        "english": "to join together",
+        "element": "Ether",
+        "archetype": "The Lover",
+        "vector": "connect",
+        "resonance": [0.68, 0.28, 0.87],
+        "metaphor": "To weave threads of light into unity."
+    }
+}
