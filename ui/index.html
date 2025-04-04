@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHRONOS.SI Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 500px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        #response {
+            border: 1px solid #ccc;
+            padding: 10px;
+            min-height: 200px;
+            border-radius: 4px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>CHRONOS.SI Interface</h2>
+        <input type="text" id="input" placeholder="Enter your message..." onkeypress="if(event.key === 'Enter') sendMessage()">
+        <div id="response"></div>
+    </div>
+
+    <script>
+        const ws = new WebSocket('ws://localhost:8080');
+        const responseDiv = document.getElementById('response');
+        const inputField = document.getElementById('input');
+
+        ws.onopen = () => console.log('Connected to WebSocket server');
+        ws.onmessage = (event) => {
+            responseDiv.textContent += event.data + '\n';
+            responseDiv.scrollTop = responseDiv.scrollHeight;
+        };
+
+        function sendMessage() {
+            const message = inputField.value.trim();
+            if (message) {
+                ws.send(message);
+                inputField.value = '';
+            }
+        }
+    </script>
+</body>
+</html>

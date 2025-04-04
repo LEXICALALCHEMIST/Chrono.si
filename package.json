@@ -11,5 +11,15 @@
   "bugs": {
     "url": "https://github.com/LEXICALALCHEMIST/chrono.si/issues"
   },
-  "homepage": "https://github.com/LEXICALALCHEMIST/chrono.si#readme"
+  "homepage": "https://github.com/LEXICALALCHEMIST/chrono.si#readme",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LEXICALALCHEMIST/Chrono.si.git"
+  },
+  "dependencies": {
+    "ws": "^8.18.1"
+  }
 }
