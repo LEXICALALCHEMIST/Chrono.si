@@ -1,0 +1,8 @@
+{
+    "○": { "unicode": "U+25CB", "svg": "glyph_svgs/○.svg" },
+    "●": { "unicode": "U+25CF", "svg": "glyph_svgs/●.svg" },
+    "■": { "unicode": "U+25A0", "svg": "glyph_svgs/■.svg" },
+    "□": { "unicode": "U+25A1", "svg": "glyph_svgs/□.svg" },
+    "¥": { "unicode": "U+00A5", "svg": "glyph_svgs/¥.svg" },
+    "₩": { "unicode": "U+20A9", "svg": "glyph_svgs/₩.svg" }
+  }

@@ -1,8 +1,8 @@
-const glyphIndex = require("../glyph_codex/alphabet/glyphs.json");
+import { glyphAlphabet } from "../GLYPHS/glyph.js";
 
 // Map a letter to its visual glyph representation
 function renderGlyph(letter) {
-  const glyph = glyphIndex[letter.toLowerCase()];
+  const glyph = glyphAlphabet[letter.toLowerCase()];
   if (!glyph) {
     return "◇"; // Default symbol for unknown letters
   }
@@ -14,4 +14,4 @@ function renderWord(word) {
   return word.toLowerCase().split("").map(letter => renderGlyph(letter)).join("-");
 }
 
-module.exports = { renderGlyph, renderWord };
+export default { renderGlyph, renderWord };
