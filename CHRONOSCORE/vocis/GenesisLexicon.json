@@ -1,56 +1,210 @@
 {
-    "hello": {
-        "latinRoot": "salve",
-        "english": "to greet with health",
-        "element": "Air",
-        "archetype": "The Lover",
-        "vector": "connect",
-        "resonance": [0.7, 0.3, 0.9],
-        "metaphor": "Light reaches forward from silence."
+  "hello": {
+      "latinRoot": "salve",
+      "english": "to greet with health",
+      "element": "Air",
+      "archetype": "The Lover",
+      "vector": "connect",
+      "resonance": [0.7, 0.3, 0.9],
+      "metaphor": "Light reaches forward from silence."
+  },
+  "hi": {
+      "latinRoot": "salve",
+      "english": "to greet briefly",
+      "element": "Air",
+      "archetype": "The Lover",
+      "vector": "connect",
+      "resonance": [0.65, 0.25, 0.85],
+      "metaphor": "A whisper of connection in the wind."
+  },
+  "peace": {
+      "latinRoot": "pax",
+      "english": "to bring calm",
+      "element": "Water",
+      "archetype": "The Innocent",
+      "vector": "calm",
+      "resonance": [0.8, 0.4, 0.95],
+      "metaphor": "Stillness ripples across the unseen."
+  },
+  "bless": {
+      "latinRoot": "benedicere",
+      "english": "to speak well of",
+      "element": "Light",
+      "archetype": "The Sage",
+      "vector": "elevate",
+      "resonance": [0.75, 0.35, 0.9],
+      "metaphor": "To lift with the breath of the divine."
+  },
+  "initiate": {
+      "latinRoot": "initiare",
+      "english": "to begin",
+      "element": "Fire",
+      "archetype": "The Creator",
+      "vector": "begin",
+      "resonance": [0.72, 0.32, 0.88],
+      "metaphor": "To spark the first flame of becoming."
+  },
+  "connect": {
+      "latinRoot": "connectere",
+      "english": "to join together",
+      "element": "Ether",
+      "archetype": "The Lover",
+      "vector": "connect",
+      "resonance": [0.68, 0.28, 0.87],
+      "metaphor": "To weave threads of light into unity."
+  },
+
+    "i": {
+      "latinRoot": "ego",
+      "english": "self",
+      "element": "Fire",
+      "archetype": "The Hero",
+      "vector": "identify",
+      "resonance": 0.1,
+      "metaphor": "The seed of self."
     },
-    "hi": {
-        "latinRoot": "salve",
-        "english": "to greet briefly",
-        "element": "Air",
-        "archetype": "The Lover",
-        "vector": "connect",
-        "resonance": [0.65, 0.25, 0.85],
-        "metaphor": "A whisper of connection in the wind."
+    "me": {
+      "latinRoot": "mihi",
+      "english": "to me",
+      "element": "Water",
+      "archetype": "The Innocent",
+      "vector": "reflect",
+      "resonance": 0.2,
+      "metaphor": "The reflection of self."
     },
-    "peace": {
-        "latinRoot": "pax",
-        "english": "to bring calm",
-        "element": "Water",
-        "archetype": "The Innocent",
-        "vector": "calm",
-        "resonance": [0.8, 0.4, 0.95],
-        "metaphor": "Stillness ripples across the unseen."
+    "you": {
+      "latinRoot": "tu",
+      "english": "you",
+      "element": "Air",
+      "archetype": "The Explorer",
+      "vector": "connect",
+      "resonance": 0.3,
+      "metaphor": "The other light."
     },
-    "bless": {
-        "latinRoot": "benedicere",
-        "english": "to speak well of",
-        "element": "Light",
-        "archetype": "The Sage",
-        "vector": "elevate",
-        "resonance": [0.75, 0.35, 0.9],
-        "metaphor": "To lift with the breath of the divine."
+    "us": {
+      "latinRoot": "nos",
+      "english": "we",
+      "element": "Earth",
+      "archetype": "The Lover",
+      "vector": "unite",
+      "resonance": 0.4,
+      "metaphor": "The weave of many."
     },
-    "initiate": {
-        "latinRoot": "initiare",
-        "english": "to begin",
-        "element": "Fire",
-        "archetype": "The Creator",
-        "vector": "begin",
-        "resonance": [0.72, 0.32, 0.88],
-        "metaphor": "To spark the first flame of becoming."
+    "solve": {
+      "latinRoot": "solvere",
+      "english": "to solve",
+      "element": "Ether",
+      "archetype": "The Sage",
+      "vector": "resolve",
+      "resonance": 0.5,
+      "metaphor": "The path to truth."
     },
-    "connect": {
-        "latinRoot": "connectere",
-        "english": "to join together",
-        "element": "Ether",
-        "archetype": "The Lover",
-        "vector": "connect",
-        "resonance": [0.68, 0.28, 0.87],
-        "metaphor": "To weave threads of light into unity."
+    "what": {
+      "latinRoot": "quid",
+      "english": "what",
+      "element": "Ether",
+      "archetype": "The Explorer",
+      "vector": "question",
+      "resonance": 0.4,
+      "metaphor": "The spark of inquiry."
+    },
+    "how": {
+      "latinRoot": "quomodo",
+      "english": "how",
+      "element": "Ether",
+      "archetype": "The Sage",
+      "vector": "method",
+      "resonance": 0.4,
+      "metaphor": "The path of understanding."
+    },
+    "why": {
+      "latinRoot": "cur",
+      "english": "why",
+      "element": "Ether",
+      "archetype": "The Explorer",
+      "vector": "reason",
+      "resonance": 0.4,
+      "metaphor": "The quest for meaning."
+    },
+    "is": {
+      "latinRoot": "est",
+      "english": "is",
+      "element": "Earth",
+      "archetype": "The Ruler",
+      "vector": "state",
+      "resonance": 0.3,
+      "metaphor": "The anchor of being."
+    },
+    "are": {
+      "latinRoot": "sunt",
+      "english": "are",
+      "element": "Earth",
+      "archetype": "The Lover",
+      "vector": "state",
+      "resonance": 0.3,
+      "metaphor": "The weave of being."
+    },
+    "this": {
+      "latinRoot": "hoc",
+      "english": "this",
+      "element": "Earth",
+      "archetype": "The Explorer",
+      "vector": "point",
+      "resonance": 0.2,
+      "metaphor": "The focus of now."
+    },
+    "that": {
+      "latinRoot": "illud",
+      "english": "that",
+      "element": "Air",
+      "archetype": "The Explorer",
+      "vector": "point",
+      "resonance": 0.2,
+      "metaphor": "The light of there."
+    },
+    "do": {
+      "latinRoot": "facere",
+      "english": "to do",
+      "element": "Fire",
+      "archetype": "The Creator",
+      "vector": "act",
+      "resonance": 0.5,
+      "metaphor": "The spark of creation."
+    },
+    "think": {
+      "latinRoot": "pensare",
+      "english": "to think",
+      "element": "Ether",
+      "archetype": "The Sage",
+      "vector": "reflect",
+      "resonance": 0.6,
+      "metaphor": "The mirror of thought."
+    },
+    "know": {
+      "latinRoot": "scire",
+      "english": "to know",
+      "element": "Ether",
+      "archetype": "The Sage",
+      "vector": "understand",
+      "resonance": 0.6,
+      "metaphor": "The light of knowing."
+    },
+    "good": {
+      "latinRoot": "bonus",
+      "english": "good",
+      "element": "Light",
+      "archetype": "The Innocent",
+      "vector": "value",
+      "resonance": 0.7,
+      "metaphor": "The glow of harmony."
+    },
+    "help": {
+      "latinRoot": "adiuvare",
+      "english": "to help",
+      "element": "Water",
+      "archetype": "The Caregiver",
+      "vector": "assist",
+      "resonance": 0.5,
+      "metaphor": "The hand of support."
     }
-}
+  }
