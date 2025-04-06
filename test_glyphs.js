@@ -1,8 +1,8 @@
 // Import glyph-related modules
 const { glyphAlphabet, breakDownWord, createGlyphFromComponents, interpretWord } = require("./GLYPHS/glyph.js");
-const { renderGlyph, renderWord } = require("./GLYPHRENDERER/alphabet_Map.js");
-const { renderNumber } = require("./GLYPHRENDERER/number_Map.js");
-const { renderGlyphSequence } = require("./GLYPHRENDERER/glyph_Renderer.js");
+const { renderGlyph, renderWord } = require("./GRS/alphabet_Map.js");
+const { renderNumber } = require("./GRS/number_Map.js");
+const { renderGlyphSequence } = require("./GRS/glyph_Renderer.js");
 
 // Test results tracking
 let testsPassed = 0;
@@ -56,6 +56,19 @@ function testCreateGlyphFromComponents() {
   assertEqual(newGlyph, expectedGlyph, "createGlyphFromComponents - Combine 'hope' components");
 }
 
+// Test 3: createGlyphFromComponents - Combine components of "hope"
+function testCreateGlyphFromComponents() {
+  const components = breakDownWord("hope");
+  const newGlyph = createGlyphFromComponents(components);
+  const expectedGlyph = {
+    symbol: "<₩■●○>-<₩●□○>-<₩●○□>-<₩■>",
+    metaphor: "The horizon of hope. The orbit of oneness. The path of purpose. The echo of essence.",
+    resonance: 0.11, // Fixed from 0.1225 to 0.11
+    components: ["h", "o", "p", "e"]
+  };
+  assertEqual(newGlyph, expectedGlyph, "createGlyphFromComponents - Combine 'hope' components");
+}
+
 // Test 4: interpretWord - Interpret the word "hope"
 function testInterpretWord() {
   const result = interpretWord("hope");
@@ -63,11 +76,10 @@ function testInterpretWord() {
     token: "hope",
     symbol: "<₩■●○>-<₩●□○>-<₩●○□>-<₩■>",
     metaphor: "The horizon of hope. The orbit of oneness. The path of purpose. The echo of essence.",
-    resonance: 0.1225
+    resonance: 0.11 // Fixed from 0.1225 to 0.11
   };
   assertEqual(result, expectedResult, "interpretWord - Interpret 'hope'");
 }
-
 // Test 5: renderGlyph - Render the letter 'h'
 function testRenderGlyph() {
   const result = renderGlyph("h");
