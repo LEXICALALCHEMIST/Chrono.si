@@ -1,4 +1,4 @@
-import { glyphAlphabet } from "../GLYPHS/glyph.js";
+const { glyphAlphabet } = require("../GLYPHS/glyph.js");
 
 // Map a letter to its visual glyph representation
 function renderGlyph(letter) {
@@ -14,4 +14,4 @@ function renderWord(word) {
   return word.toLowerCase().split("").map(letter => renderGlyph(letter)).join("-");
 }
 
-export default { renderGlyph, renderWord };
+module.exports = { renderGlyph, renderWord };
