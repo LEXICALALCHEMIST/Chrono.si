@@ -1,1 +1,0 @@
-// When Words are composed, the glyphs are stored in the glyphcore_Meaning.js

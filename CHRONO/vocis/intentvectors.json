@@ -1,0 +1,7 @@
+{
+    "hello": { "intent": "greeting", "vector": [0.1, 0.2, 0.3] },
+    "how": { "intent": "question", "vector": [0.2, 0.3, 0.4] },
+    "are": { "intent": "question", "vector": [0.3, 0.4, 0.5] },
+    "you": { "intent": "question", "vector": [0.4, 0.5, 0.6] },
+    "chronos": { "intent": "address", "vector": [0.5, 0.6, 0.7] }
+  }
